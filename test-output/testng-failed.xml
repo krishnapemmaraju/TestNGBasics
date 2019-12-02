@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [TestNGPraticalTestCourse]" parallel="methods">
+  <test thread-count="2" name="TestNGBasicsClass(failed)" parallel="methods">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.testng.prac.testcases.SampleTestNGTestcase">
+        <methods>
+          <include name="initiliazation"/>
+          <include name="method3"/>
+          <include name="method2"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.testng.prac.testcases.SampleTestNGTestcase -->
+    </classes>
+  </test> <!-- TestNGBasicsClass(failed) -->
+</suite> <!-- Failed suite [TestNGPraticalTestCourse] -->
