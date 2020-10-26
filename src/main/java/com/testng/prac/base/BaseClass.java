@@ -14,7 +14,7 @@ public class BaseClass {
 
 	public void setUp(String browser) {
 		if (browser.equals("chrome")) {
-			System.out.println("Entered Here");
+			System.out.println("Entered Here for test");
 			System.setProperty("webdriver.chrome.driver",
 					"C:\\KrishnaData\\Selenium\\chromedriver_win3277V\\chromedriver.exe");
 			driver = new ChromeDriver();
